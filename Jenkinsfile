@@ -27,7 +27,6 @@
 
     stages {
         stage('Build') {
-
             input {
               message "Should we continue?"
               ok "Yes, we should."
