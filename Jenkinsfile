@@ -27,11 +27,6 @@
 
     stages {
         stage('Build') {
-            input {
-              message "Should we continue?"
-              ok "Yes, we should."
-              submitter "admin"
-            }
             steps {
                sh 'echo Build'
                sh 'echo $SAMPLE_URL'
